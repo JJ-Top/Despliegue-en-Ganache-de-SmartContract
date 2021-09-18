@@ -1,0 +1,22 @@
+{
+  "name": "xWeb3Dapp3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node ./contracts/js/compile.js",
+    "deploy": "node ./contracts/js/deploy.js",
+    "dev": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.8.7-fixed",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
